@@ -1,0 +1,25 @@
+.kss-isolate--hide,
+%kss-isolate--hide {
+  display: none;
+}
+
+.kss-isolate {
+
+    background: none;
+    padding: 0 !important;
+
+    .kss-main {
+      padding: 0 !important;
+      margin: 0 !important;
+      width: 100% !important;
+    }
+    .kss-modifier__wrapper {
+      padding: 0 !important;
+    }
+    .kss-sidebar {
+      display: none;
+    }
+    .kss-section {
+      max-width: 100% !important;
+    }
+}
